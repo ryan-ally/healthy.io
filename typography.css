@@ -1,0 +1,82 @@
+                        body {
+                            font-size: 1em;
+                            font-family: cursive;
+                            line-height: 5em;
+                        }
+                        
+                        body * {
+                            font-size: 1.1em;
+                        }
+                        
+                        a {
+                            font-weight: bold;
+                            text-decoration: none;
+                        }
+                        
+                        header nav {
+                            font-family: " Montserrat", "helvetica", "arial", ;
+                            padding: 5px 5px 5px 5px;
+                            margin: 0px;
+                        }
+                        
+                        .NavLink {
+                            text-decoration: overline;
+                            font-weight: bold;
+                            padding: 5px 5px 5px 5px;
+                            margin: 40px
+                        }
+                        
+                        article {
+                            line-height: 1px;
+                        }
+                        
+                        p {
+                            font-size: 1em;
+                        }
+                        
+                        h1 {
+                            border-top: 1px solid black;
+                            font-size: 1em;
+                            font-family: " Montserrat", "helvetica", "arial", ;
+                            font-weight: bold;
+                        }
+                        
+                        #imagegallery {
+                            list-style-type: none;
+                        }
+                        
+                        textarea {
+                            font-family: "helvetica", "arial", sans-serif;
+                        }
+                        
+                        #quote {
+                            margin-left: 40px;
+                            width: 85%;
+                            color: oldlace;
+                            background-color: midnightblue;
+                            font-size: .8em;
+                            text-align: center;
+                            hyphens: auto;
+                        }
+                        
+                        #author {
+                            color: black;
+                            background-color: midnightblue;
+                            font-size: 1.8em;
+                            text-align: center;
+                            border-top: 1px solid rgb(161, 54, 72);
+                        }
+                        
+                        svg,
+                        circle {
+                            background: transparent;
+                            opacity: 85%;
+                            width: 100px;
+                            height: 1000px;
+                        }
+                        
+                        .rf,
+                        img {
+                            background: transparent;
+                            opacity: 85%;
+                        }

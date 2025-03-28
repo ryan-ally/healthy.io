@@ -1,0 +1,602 @@
+    h1 {
+        color: ghostwhite;
+        background: linear-gradient(to right, midnightblue, black);
+        width: 80%;
+        border-top: 2px solid midnightblue;
+        align-items: center;
+        align-content: center;
+        position: center;
+        justify-content: center;
+        margin-left: 35px;
+        margin-right: 10px;
+    }
+    
+    .App-aa {
+        float: right;
+        background: linear-gradient(to right, dodgerblue, midnightblue);
+        border-radius: 15px;
+        -moz-border-radius: 15px;
+        -webkit-border-radius: 15px;
+        height: 50px;
+    }
+    
+    .App-vy {
+        border-radius: 15px;
+        -moz-border-radius: 15px;
+        -webkit-border-radius: 15px;
+        background: linear-gradient(to left, dodgerblue, blue);
+        height: 100%;
+        justify-content: center;
+        position: center;
+        align-items: center;
+        align-content: center;
+        padding: 15px;
+    }
+    
+    .App-uyt {
+        float: left;
+        background-color: linear-gradient(to right, dodgerblue, midnightblue);
+        border-radius: 15px;
+        -moz-border-radius: 15px;
+        -webkit-border-radius: 15px;
+        height: 90px;
+        width: 20%;
+    }
+    
+    .App-ggg {
+        border-radius: 15px;
+        -moz-border-radius: 15px;
+        -webkit-border-radius: 15px;
+        background: linear-gradient(to left, dodgerblue, #0e08088a);
+        height: 50%;
+        justify-content: center;
+        position: center;
+        align-items: center;
+        align-content: center;
+        display: flex;
+        padding: 15px;
+        width: 50%;
+        margin-left: 150px;
+    }
+    
+    .form-input-btn {
+        color: ghostwhite;
+        background-color: maroon;
+    }
+    
+    #ball {
+        background: transparent;
+        background-repeat: no-repeat;
+        border-radius: 15px;
+        -moz-border-radius: 15px;
+        -webkit-border-radius: 15px;
+        background-size: cover;
+        width: 70px;
+        height: 70px;
+        margin: 400px;
+        animation: shapeshift 15s infinite;
+    }
+    
+    @keyframes shapeshift {
+        0%,
+        100% {
+            transform: translate(0, 0);
+            border-radius: 50px;
+            background-color: white;
+        }
+        33% {
+            transform: translate(200px, -400px) scale(0.5, 0.5);
+            border-radius: 50px;
+            background-color: white;
+        }
+        66% {
+            transform: translate(400px, 0) rotate(4545deg) scale(2, 2);
+            border-radius: 50px;
+            background-color: white;
+        }
+    }
+    
+    .App-fff,
+    .App-dd,
+    .App-itty,
+    .App-try {
+        height: 50%;
+        width: 50%;
+        align-content: center;
+        border-radius: 175px;
+        -moz-border-radius: 175px;
+        -webkit-border-radius: 175px;
+    }
+    
+    .App-uuu {
+        align-content: center;
+        border-radius: 175px;
+        -moz-border-radius: 175px;
+        -webkit-border-radius: 175px;
+        height: 50%;
+        width: 50%;
+    }
+    
+    .App-is,
+    .App-bv {
+        border: 1px solid midnightblue;
+        align-content: center;
+        border-radius: 175px;
+        -moz-border-radius: 175px;
+        -webkit-border-radius: 175px;
+        height: 100%;
+        width: 100%;
+    }
+    
+    #author {
+        border: 1px solid midnightblue;
+        align-content: center;
+        border-radius: 175px;
+        -moz-border-radius: 175px;
+        -webkit-border-radius: 175px;
+        height: 100%;
+        width: 100%;
+    }
+    
+    #quo {
+        border: 1px solid midnightblue;
+        background-color: dodgerblue;
+        align-content: center;
+        border-radius: 175px;
+        -moz-border-radius: 175px;
+        -webkit-border-radius: 175px;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .App-gyt,
+    .App-lol {
+        align-content: center;
+        border-radius: 175px;
+        -moz-border-radius: 175px;
+        -webkit-border-radius: 175px;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .App-ll,
+    .App-tf {
+        height: 50%;
+        width: 100%;
+        border: 1px solid midnightblue;
+        align-content: center;
+        border-radius: 175px;
+        -moz-border-radius: 175px;
+        -webkit-border-radius: 175px;
+    }
+    
+    a:link {
+        font-size: 0.7em;
+        color: rgb(246, 246, 250);
+        border-radius: 175px;
+        -moz-border-radius: 175px;
+        -webkit-border-radius: 175px;
+        margin: 3px;
+    }
+    
+    a:visited {
+        color: rgba(146, 0, 0, 0.582);
+        border-radius: 175px;
+        -moz-border-radius: 175px;
+        -webkit-border-radius: 175px;
+        background-color: #15036d77;
+    }
+    
+    a:hover {
+        color: dodgerblue;
+        background: linear-gradient(to right, midnightblue, #0f09098e);
+        border-radius: 175px;
+        -moz-border-radius: 175px;
+        -webkit-border-radius: 175px;
+    }
+    
+    a:active {
+        color: rgb(247, 238, 238);
+        background-color: rgba(14, 15, 15, 0.555);
+        border-radius: 175px;
+        -moz-border-radius: 175px;
+        -webkit-border-radius: 175px;
+    }
+    
+    p {
+        border-top: 2px solid midnightblue;
+        color: ghostwhite;
+        opacity: 85%;
+        text-decoration: none;
+        width: 100%;
+    }
+    
+    body {
+        font-family: "Open Sans", serif;
+        background: linear-gradient(to bottom, dodgerblue, dodgerblue, dodgerblue, aliceblue);
+        height: 100%;
+        width: 100%;
+        align-content: center;
+        text-align: center;
+        color: ghostwhite;
+    }
+    
+    .App-kk,
+    .App-rf,
+    .App-rr,
+    .App-ap,
+    .App-tw,
+    .App-logo,
+    .App-rf {
+        height: 100%;
+        width: 100%;
+        border: 1px solid midnightblue;
+        align-content: center;
+        border-radius: 175px;
+        -moz-border-radius: 175px;
+        -webkit-border-radius: 175px;
+    }
+    
+    button {
+        box-shadow: 1px 2px 1px;
+        border: 2px solid midnightblue;
+        border-radius: 175px;
+        -moz-border-radius: 175px;
+        -webkit-border-radius: 175px;
+        color: ghostwhite;
+        background-color: midnightblue;
+    }
+    
+    .contactForm {
+        display: center;
+        justify-content: center;
+        background: linear-gradient(to right, midnightblue, #0e08088a);
+        align-items: center;
+        align-content: center;
+        color: ghostwhite;
+        width: 50%;
+    }
+    
+    .form-control {
+        display: center;
+        justify-content: center;
+        background: linear-gradient(to right, midnightblue, #0e08088a);
+        align-items: center;
+        align-content: center;
+        color: ghostwhite;
+    }
+    
+    .NavLink {
+        background: linear-gradient(to right, midnightblue, #0e08088a);
+        border-radius: 175px;
+        -moz-border-radius: 175px;
+        -webkit-border-radius: 175px;
+    }
+    
+    .input {
+        display: center;
+        justify-content: center;
+        background: linear-gradient(to right, midnightblue, #0e08088a);
+        align-items: center;
+        align-content: center;
+        color: ghostwhite;
+    }
+    
+    * {
+        box-sizing: border-box;
+    }
+    /* Style the navbar */
+    
+    .topnav {
+        align-items: center;
+        overflow: hidden;
+        margin-top: 2px;
+        background: linear-gradient(to bottom, dodgerblue, dodgerblue, dodgerblue);
+    }
+    /* Navbar links */
+    
+    .topnav a {
+        float: left;
+        display: flex;
+        color: ghostwhite;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        align-items: center;
+    }
+    /* Navbar links on mouse-over */
+    
+    .topnav a:hover {
+        background-color: dodgerblue;
+        color: black;
+    }
+    /* Active/current link */
+    
+    .topnav a.active {
+        background: linear-gradient(to right, midnightblue, #1610108a);
+        color: white;
+    }
+    /* Style the input container */
+    
+    .topnav .login-container {
+        float: right;
+    }
+    /* Style the input field inside the navbar */
+    
+    .topnav input[type=text] {
+        padding: 6px;
+        font-size: 17px;
+        color: ghostwhite;
+        border: none;
+        width: 150px;
+    }
+    
+    .topnav .login-container button {
+        float: right;
+        padding: 6px;
+        color: midnightblue;
+        margin-right: 16px;
+        background: linear-gradient(to right, midnightblue, #1610108a);
+        font-size: 17px;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .topnav .login-container button:hover {
+        background: rgb(241, 232, 236);
+    }
+    
+    @media screen and (max-width: 600px) {
+        .topnav .login-container {
+            float: none;
+        }
+        .topnav a,
+        .topnav input[type=text],
+        .topnav .login-container button {
+            float: none;
+            justify-content: center;
+            align-items: center;
+            text-align: left;
+            width: 50%;
+            margin-left: 5px;
+            padding: 14px;
+        }
+        .topnav input[type=text] {
+            color: ghostwhite;
+        }
+    }
+    
+    .notification,
+    .notification * {
+        box-sizing: border-box;
+    }
+    
+    .notification {
+        background: var(--m3-sys-dark-on-primary-fixed, #21005d);
+        border-radius: var(--var-sds-size-radius-200, 8px);
+        border-style: solid;
+        border-color: var(--var-sds-color-border-default-secondary, #757575);
+        border-width: 1px;
+        padding: var(--var-sds-size-space-400, 16px);
+        display: flex;
+        flex-direction: row;
+        gap: var(--var-sds-size-space-300, 12px);
+        align-items: center;
+        justify-content: flex-start;
+        width: 300px;
+        position: relative;
+    }
+    
+    .notification .title {
+        display: flex;
+        flex-direction: row;
+        gap: var(--var-sds-size-space-300, 12px);
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex: 1;
+        position: relative;
+    }
+    
+    .notification .stack {
+        display: flex;
+        flex-direction: column;
+        gap: var(--var-sds-size-space-400, 16px);
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex: 1;
+        position: relative;
+    }
+    
+    .notification .content {
+        display: flex;
+        flex-direction: column;
+        gap: var(--var-sds-size-space-100, 4px);
+        align-items: flex-start;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+    }
+    
+    .notification .title2 {
+        color: var(--var-sds-color-text-default-default, #1e1e1e);
+        text-align: left;
+        font-family: var(--body-strong-font-family, "Inter-SemiBold", sans-serif);
+        font-size: var(--body-strong-font-size, 16px);
+        line-height: var(--body-strong-line-height, 140%);
+        font-weight: var(--body-strong-font-weight, 600);
+        position: relative;
+        align-self: stretch;
+    }
+    
+    .notification .body-text {
+        color: var(--var-sds-color-text-default-default, #1e1e1e);
+        text-align: left;
+        font-family: var(--body-base-font-family, "Inter-Regular", sans-serif);
+        font-size: var(--body-base-font-size, 16px);
+        line-height: var(--body-base-line-height, 140%);
+        font-weight: var(--body-base-font-weight, 400);
+        position: relative;
+        align-self: stretch;
+    }
+    
+    .notification .button-instance {
+        flex-shrink: 0 !important;
+    }
+    
+    .notification .icon-button-instance {
+        flex-shrink: 0 !important;
+        position: absolute !important;
+        right: -8px !important;
+        top: -8px !important;
+    }
+    /* nested override styles */
+    
+    .notification .x-instance2 {
+        width: 20px !important;
+        height: 20px !important;
+    }
+    
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    * {
+        box-sizing: border-box;
+    }
+    /* Full-width input fields */
+    
+    input[type=text],
+    input[type=password] {
+        width: 80%;
+        padding: 15px;
+        margin: 5px 0 12px 0;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        background: linear-gradient(to right, midnightblue, #0e08088a);
+        color: ghostwhite;
+        ;
+    }
+    
+    a,
+    button,
+    input,
+    select,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    * {
+        align-items: center;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        border: none;
+        text-decoration: none;
+        background: none;
+        -webkit-font-smoothing: antialiased;
+    }
+    
+    menu,
+    ol,
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    /* Add a background color when the inputs get focus */
+    
+    input[type=text]:focus,
+    input[type=password]:focus {
+        background-color: white;
+        outline: none;
+        align-items: center;
+    }
+    /* Set a style for all buttons */
+    
+    button:hover {
+        opacity: 1;
+    }
+    /* Extra styles for the cancel button */
+    
+    .cancelbtn {
+        padding: 14px 10px;
+        background-color: #f44336;
+    }
+    /* Float cancel and signup buttons and add an equal width */
+    
+    .cancelbtn,
+    .signupbtn {
+        float: left;
+        width: 50%;
+    }
+    /* Add padding to container elements */
+    
+    .container {
+        padding: 10px;
+    }
+    /* The Modal (background) */
+    
+    .modal {
+        display: inline-flex;
+        /* Hidden by default */
+        position: fixed;
+        /* Stay in place */
+        z-index: 1;
+        /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%;
+        /* Full width */
+        height: 100%;
+        /* Full height */
+        overflow: auto;
+        /* Enable scroll if needed */
+        padding-top: 50px;
+        background: linear-gradient(to right, midnightblue, #0e08088a);
+    }
+    /* Modal Content/Box */
+    
+    .modal-content {
+        background-color: #fefefe;
+        margin: 5% auto 15% auto;
+        /* 5% from the top, 15% from the bottom and centered */
+        border: 1px solid #888;
+        width: 80%;
+        /* Could be more or less, depending on screen size */
+    }
+    /* Style the horizontal ruler */
+    /* The Close Button (x) */
+    
+    .close {
+        position: absolute;
+        right: 35px;
+        top: 15px;
+        font-size: 40px;
+        font-weight: bold;
+        color: #f1f1f1;
+    }
+    
+    .close:hover,
+    .close:focus {
+        color: #f44336;
+        cursor: pointer;
+    }
+    /* Clear floats */
+    
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: inline-flex;
+    }
+    /* Change styles for cancel button and signup button on extra small screens */
+    
+    @media screen and (max-width: 300px) {
+        .cancelbtn,
+        .signupbtn {
+            width: 80%;
+        }
+    }
